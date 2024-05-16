@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Owl Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <style>
+    .container-fluid{
+      width: 100%;
+    }
+    .container-1{
+      width: 33%;
+      height: 350px;
+      float: left;
+      background-image: linear-gradient(to right,rgb(234, 171, 55),rgb(233, 3, 79));
+    }
+    .container-2{
+      float: right;
+    }
+    .container-3{
+      width: 99%;
+    }
+  </style>
+  <body>
+      <div class="container-1 p-5">
+        <div class="row">
+          <div class="col-sm-4 mt-3">
+            <img src="circle-logo.png" alt="logo" style="border-radius: 50%;" width="90px" height="90px" class="justify-content-start mt-4 ms-4 ">
+          </div>
+          <div class="col-sm-6 mt-5 pe-2 text-light">   
+            <h2 >Yellow Owl</h2>
+            <h5 class="mt-2">Admin</h5> 
+          </div>
+        </div>
+      </div>      
+      <div class="container-2 me-1"   style="background-image:linear-gradient(to right,rgb(2, 207, 2),rgb(9, 19, 200));width: 66.4%;height: 85px;">
+        <span class="text-overlay fs-3 ps-1 fw-bold text-light"> Students</span>
+      </div>  
+    </div>
+    <div class="container-3 mt-3">
+      <div class="row">
+        <div class="col-sm-4  fs-4 mt-2 ">
+          <h3>Student</h3>  
+        </div>
+        <div class="col-sm-4">
+          <input type="search" alt="search" placeholder="Search" class="btn btn-outline-dark bg-light mt-2">
+        </div>
+        <div class="col-sm-4">  
+          <button class="btn bg-success btn-outline-dark text-light   ms-5 gap-5 mt-2">ADD NEW STUDENT</button>
+        </div>
+      </div>   
+    </div>
+    <div class="container mt-4 pb-5 pt-4  w-100 pe-2" style="background-color: gainsboro;">
+      <div class="row p-0  bg-warning fw-bold gap-4 "style="width: 69.7%;">
+        <div class="col">NAME</div>
+        <div class="col ">EMAIL</div>
+        <div class="col">PHONE</div>
+        <div class="col me-5">ENROLL NUMBER</div>  
+        <div class="col">&nbsp;DATE OF ADMISSION</div>
+      </div>
+      <div class="row p-0 pb-4" style="width: 69.7%;background-color: rgb(214, 239, 237);">
+        <img src="circle-logo.png" style="width: 35px; height: 25px;" >
+        <div class="col-sm me-0">Andrew</div>
+        <div class="col-sm me-0">Andretaylor@gmail.com</div>
+        <div class="col-sm ms-0 ">8562085620</div>
+        <div class="col-sm ">330152621001546463</div>  
+        <div class="col-sm">&nbsp;&nbsp;&nbsp;&nbsp;01 Dec, 2023 </div>
+        <img src="icon pen.png" style="width: 37px; height: 25px;" class="ms-4"> 
+        <img src="icons-trash.gif" style="width:37px; height:25px;">
+      </div>
+    </div>  
+    <br>
+
+    <!------------------------------------ADD STUDENT LIST CONTENT--------------------------------------->
+    <p class="mt-5 ms-5 fw-bold">..>ADD STUDENT LIST...<...</p>
+    <div class="container-4 w-50 mt-2 p-2 ms-5 " style="background-color: gainsboro;border: 2px solid black;" >
+      <nav class="navbar w-100" style="background-image:linear-gradient(to right,rgb(47, 177, 47),rgb(43, 43, 205)) ;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+          <a class="navbar-brand fs-3 ms-4 text-light" href="#">Student</a>  
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ms-2 ">
+            <li class="nav-item ">
+              <a class="nav-link text-light" href="#">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-light" href="#">Students List</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">+ Add Students</a>
+            </li>
+          </ul>  
+        </div>    
+      </nav>
+      <div class="row mt-2 w-100">
+        <div class="col-sm-4 p-2">
+          <p class="fs-3 ms-2">Students</p>
+        </div>
+        <div class="col-sm-4">  
+          <input type="search"  class="search ms-5 mt-3 pe-5" placeholder="Search...">
+        </div>
+        <div class="col-sm-4"> 
+          <button class="btn bg-success text-light ms-5 mt-2 ps-4 pe-4">ADD</button>
+        </div>
+      </div>
+      <div class="container-5 mt-5  w-100 align-items-center" style="background-color: white;border: solid whitesmoke;">
+        <div class="row align-items-center ">
+          <div class="col-sm-4">
+            <p class="fw-bold">NAME</p> 
+          </div>
+          <div class="col-sm-4 text-center">
+            <p class="fw-bold">EMAIL</p> 
+          </div>
+          <div class="col-sm-4">
+          </div>
+        </div>
+        <div class="row  w-100">
+          <div class="col-sm-4">
+            <img src="circle-logo.png" style="width: 20px;height: 18px;">
+            <h6 class="fw-bold">ANDREW</h6> 
+          </div>
+          <div class="col-sm-4 text-center">
+            <p class="fw-bold mt-3">andrew@gmail.com</p> 
+          </div>
+          <div class="col-sm-4 ms-0 mt-4 text-center">
+            <img src="icon pen.png" style="width: 20px;height: 20px;" class="ms-4">
+            <img src="icons-trash.gif" style="width: 20px;height: 20px;" class="ms-2 mb-1">
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <!------------------------------------ADD NEW STUDENTS-------------------->
+    <p class="mt-5 ms-5 fw-bold">...>....ADD NEW STUDENTS...<..</p>
+    <div class="container mt-3 w-100 p-4" style="background-color:rgb(189, 178, 164);">
+      <div class="container w-50 p-4 mt-5" style="background-color: white; border:5px whitesmok;">
+        <p class="fs-2 ms-3">Add New Students</p>
+        <input type="text" class="form-control-lg w-75 ms-3 mt-3" placeholder="Enter Name" >
+        <input type="text" class="form-control-lg w-75 ms-3 mt-3" placeholder="Email ID goes here">
+        <input type="text" class="form-control-lg w-75 ms-3 mt-3" placeholder="Phone No" >
+        <input type="text" class="form-control-lg w-75 ms-3 mt-3" placeholder="Enroll NO ">
+        <input type="text" class="form-control-lg w-75 ms-3 mt-3" placeholder="Date of Admission">
+        <button class="btn bg-success text-light btn-outline-info w-50  mt-3 ms-5">SUBMIT</button>
+        <button class="btn bg-danger text-light w-50 ms-5  mt-3 ">CANCEL</button>
+      </div>
+    </div>
+<!------------------------EDIT STuDENTS--------------------->
+    <p class="mt-5 ms-5 fw-bold">...>....ADD NEW STUDENTS...<..</p>
+    <div class="container mt-3 w-100 p-4" style="background-color:rgb(189, 178, 164);">
+      <div class="container w-50 p-4 mt-5" style="background-color: white; border:5px whitesmok;">
+        <p class="fs-2 ms-3">Edit Students</p>
+        <input type="text" class="form-control-lg w-75 ms-3 mt-3" placeholder="Enter Name" >
+        <input type="text" class="form-control-lg w-75 ms-3 mt-3" placeholder="Email ID goes here">
+        <input type="text" class="form-control-lg w-75 ms-3 mt-3" placeholder="Phone No" >
+        <input type="text" class="form-control-lg w-75 ms-3 mt-3" placeholder="Enroll NO ">
+        <input type="text" class="form-control-lg w-75 ms-3 mt-3" placeholder="Date of Admission">
+        <button class="btn bg-success text-light btn-outline-info w-50  mt-3 ms-5">Update</button>
+        <button class="btn bg-danger text-light w-50 ms-5  mt-3 ">CANCEL</button>
+      </div>
+    </div>
+<!----------------------------------DELETE STUDENTS---------------------------------------------------->
+    <p class="mt-5 ms-5 fw-bold">...>....DELETE STUDENTS...<..</p>
+    <div class="container w-100 mt-2 p-4" style="background-color: rgb(233, 233, 175);">
+      <a>Delete the student</a>
+      <div class="container w-75 bg-light  p-4  text-center" style="background-image: linear-gradient(to right,rgb(206, 221, 226),rgb(51, 211, 235));">
+        <p class=" text-center fs-4">Are you sure to delete this student?</p>
+        <ul class="row">
+          <li class="col-sm-4 bg-success text-light  p-2 mt-4 ms-5" type="button" aria-placeholder="YES">YES</li><br>
+          <li class="col-sm-4 bg-danger text-light  p-2 mt-4 ms-5" type="button" aria-placeholder="YES">NO</li>  
+        </ul>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
